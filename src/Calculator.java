@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class javaCalculator 
+public class Calculator 
 {
 
     public static void main(String[] args) 
@@ -42,7 +42,7 @@ public class javaCalculator
             System.out.println("your answer is" + (num1 * num2));
         }
         if (operation == "++")
-        	System.out.println("Magic calculation is" + (num1 ++ num2));
+        	System.out.println("Magic calculation is" + (num1 + num2));
 
 
     }
