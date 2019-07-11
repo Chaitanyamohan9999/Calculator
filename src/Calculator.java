@@ -41,6 +41,8 @@ public class javaCalculator
         {
             System.out.println("your answer is" + (num1 * num2));
         }
+        if (operation == "++")
+        	System.out.println("Magic calculation is" + (num1 ++ num2));
 
 
     }
